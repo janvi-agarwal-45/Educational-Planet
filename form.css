@@ -1,0 +1,172 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 195, 134);
+    color: #333;
+    line-height: 1.6;
+    
+}
+.p9{
+    color: black;
+}
+.p2{
+    background-color: rgb(233, 195, 134); ;
+}
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+
+    max-width: 800px;
+    margin:20px auto;
+    /* background: white; */
+    background-color: rgb(214, 175, 112);
+    padding : 100px;
+    padding-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}

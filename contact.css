@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 149);
+    color: rgb(18, 17, 17);
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.answer{
+    background-color: white;
+}
+#contact-container {
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+#cartoon-man {
+    position: absolute;
+    left: -150px;
+    top: 50px;
+    animation: runIn 3s forwards;
+    z-index: 1;
+}
+
+#cartoon-man .speech-bubble {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    opacity: 0;
+    animation: showText 1s forwards 3s;
+}
+
+@keyframes runIn {
+    0% { left: -150px; }
+    100% { left: 50%; transform: translateX(-50%); }
+}
+
+@keyframes showText {
+    to {
+        opacity: 1;
+    }
+}
+
+#contact-info {
+    display: none;
+    margin-top: 30px;
+    animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#faq {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-item {
+    margin: 20px 0;
+}
+
+.faq-item .answer {
+    display: none;
+}
+
+.question {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.question:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    
+    text-align: center;
+}
+.whatsapp-button img {
+    width: 40px; 
+    height: 40px; 
+}
+
+#contact-info {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}

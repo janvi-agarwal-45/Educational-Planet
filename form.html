@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Registration Page</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="p2">
+  <header>
+    <div class="logo">
+      <img src="Capture.PNG" alt="Platform Logo">
+      <h1>Educational Planet</h1>
+    </br>
+   
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="courses.html">Course</a>
+      <a href="youtube.html">YouTube Channel</a>
+      <a href="online-classes.html">Online Classes</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <!-- <a href="login.html">Login</a> -->
+      <a href="form.html">Sign Up</a>
+    </nav>
+  </header>
+
+<div class="container">
+    
+
+    <h2 class="p9">Registration Form</h2>
+    <form action="/post" method="post">
+        
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+</body>
+</html>

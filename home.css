@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    background-color: rgb(216, 190, 148);
+
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    
+    background:  rgb(214, 175, 112); 
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.intro, .featured-courses, .student-stories {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(214, 175, 112);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.p1 {
+    color: #1e1e1e;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2, .featured-courses h2, .student-stories h2 {
+    color: #333;
+    text-align: left;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course img {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+}
+
+.foot {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.foot ul {
+    list-style: none;
+    padding: 0;
+}
+
+.foot ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+/* .student-stories {
+    background-color: rgb(214, 175, 112);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.student-stories h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+} */
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    background-color: #f5f3f3;
+    flex-basis: calc(33.33% - 10px); /* Adjust the width as needed */
+    border: 1px solid #0d0d0d;
+
+    padding: 10px;
+
+    border-radius: 10px;
+}
+.reviewer-name {
+    font-weight: bold;
+}
+.review-date {
+    font-style: normal;
+}
+.review-text {
+    margin-top: 10px;
+}
+
+
+.review-container1 {
+    display: flex;
+    justify-content: space-between;
+}
+.review1 {
+    background-color: #fcfafa;
+    /* flex-basis: calc(33.33% - 10px); Adjust the width as needed */
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.reviewer-name1 {
+    font-weight: bold;
+    
+}
+
+.review-container2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
